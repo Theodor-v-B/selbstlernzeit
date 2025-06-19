@@ -1,0 +1,82 @@
+/* Grundlegende Reset-Styles for consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212; /* Dunkler Hintergrund für Technik-Look */
+  color: #eee;
+  line-height: 1.6;
+}
+
+/* Styles für die Features-Sektion */
+.features-section {
+  padding: 40px 20px;
+  background-color: #0a0a0a; /* Noch dunkler für Kontrast */
+  text-align: center;
+}
+
+/* Überschrift */
+.features-section h2 {
+  font-size: 2.5rem;
+  color: #00aaff; /* Blaue Akzentfarbe */
+  margin-bottom: 30px;
+  text-shadow: 0 0 5px #00aaff;
+}
+
+/* Container für die Karten auf Flex-Basis */
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Kartenstil */
+.card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Hover-Effekte für Karten */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+/* Icons (Platzhalter, kannst du durch echte Icons ersetzen) */
+.icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #00aaff;
+}
+
+/* Überschriften in Karten */
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+/* Beschreibungstexte in Karten */
+.card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Responsive Anpassung */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
