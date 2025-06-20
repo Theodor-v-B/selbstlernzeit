@@ -1,4 +1,4 @@
-/* Grundlegende Reset-Styles for consistency */
+/* Reset-Styles*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #121212; /* Dunkler Hintergrund für Technik-Look */
+  background-color: #121212; /* Dark Mode*/
   color: #eee;
   line-height: 1.6;
 }
@@ -15,7 +15,7 @@ body {
 /* Styles für die Features-Sektion */
 .features-section {
   padding: 40px 20px;
-  background-color: #0a0a0a; /* Noch dunkler für Kontrast */
+  background-color: #0a0a0a;
   text-align: center;
 }
 
@@ -27,7 +27,6 @@ body {
   text-shadow: 0 0 5px #00aaff;
 }
 
-/* Container für die Karten auf Flex-Basis */
 .card-container {
   display: flex;
   gap: 20px;
@@ -53,14 +52,14 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.4);
 }
 
-/* Icons (Platzhalter, kannst du durch echte Icons ersetzen) */
+/* Icons */
 .icon {
   font-size: 3rem;
   margin-bottom: 15px;
   color: #00aaff;
 }
 
-/* Überschriften in Karten */
+/* Überschrift */
 .card h3 {
   margin-bottom: 10px;
   font-size: 1.2rem;
